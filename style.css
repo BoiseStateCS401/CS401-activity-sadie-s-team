@@ -1,0 +1,64 @@
+body {
+	margin: 100px;
+	margin-top: 15px;
+	background-color: LightCyan;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-family: Impact;
+	font-size: 50px;
+	text-align: center;
+}
+
+ul, p {
+	color: DimGrey;
+}
+
+ul{
+	list-style-type: square;
+	line-height: 24px;
+}
+
+ul ul {
+	list-style-type: circle;
+}
+
+em{
+	color: #000080;
+}
+
+a{
+	text-decoration: none;
+	font-style: italic;
+}
+
+pre{
+	background-color: rgba(25, 25, 112, .1);
+	border-style: groove;
+	padding-top: 15px;
+	margin-left: : 200px;
+	margin-right: 200px;
+}
+table{
+	border-collapse: collapse;
+}
+table, th, td{
+	border-style: solid;
+	padding: 10px;
+}
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20%;
+
+}
+
+img:hover {
+	opacity: .5;
+}
+
+footer {
+	text-align: center;
+}
