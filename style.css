@@ -5,22 +5,31 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+nav {
+	display: block;
+	list-style-type: none;
+}
+
+section{
+	padding-top: 10px;
+}
+
 h1 {
 	font-family: Impact;
 	font-size: 50px;
 	text-align: center;
 }
 
-ul, p {
+ul, p{
 	color: DimGrey;
 }
 
-ul{
+ul#lists{
 	list-style-type: square;
 	line-height: 24px;
 }
 
-ul ul {
+ul#lists ul {
 	list-style-type: circle;
 }
 
@@ -34,14 +43,16 @@ a{
 }
 
 pre{
+	overflow: auto;
 	background-color: rgba(25, 25, 112, .1);
 	border-style: groove;
 	padding-top: 15px;
-	margin-left: : 200px;
-	margin-right: 200px;
+	margin: auto;
 }
 table{
 	border-collapse: collapse;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 table, th, td{
 	border-style: solid;
@@ -49,8 +60,7 @@ table, th, td{
 }
 
 img {
-	margin-right: auto;
-	margin-left: auto;
+	vertical-align: middle;
 	border-radius: 20%;
 
 }
@@ -60,5 +70,6 @@ img:hover {
 }
 
 footer {
+	padding-top: 20px;
 	text-align: center;
 }
